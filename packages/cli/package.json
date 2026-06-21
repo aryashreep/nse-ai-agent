@@ -1,10 +1,10 @@
 {
   "name": "@aryashreep/nse-ai-agent",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool and MCP server for NSE Indian stock market agentic AI analysis, screening, and reporting",
   "main": "dist/index.js",
   "bin": {
-    "nse-agent": "./dist/index.js"
+    "nse-agent": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
