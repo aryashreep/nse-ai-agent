@@ -1,0 +1,10 @@
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0
+pandas>=2.0
+pandas_ta>=0.3.14
+numpy>=1.24
+langgraph>=0.0.10
+langsmith>=0.1.0
+mcp>=0.1.0
+prometheus-fastapi-instrumentator>=6.0.0
