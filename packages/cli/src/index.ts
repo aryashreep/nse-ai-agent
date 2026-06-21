@@ -1,3 +1,5 @@
+import { printDisclaimer, trendText, trendLabel, formatAnalyze, formatValuation, formatRisk, formatBacktest, formatScreenHeader, formatScreenRow, formatCompareHeader, formatCompareRow } from "./formatter";
+
 import { Command } from "commander";
 import axios from "axios";
 import { execSync } from "child_process";
@@ -28,11 +30,7 @@ function runPythonFallback(args: string[]): any {
   }
 }
 
-function printDisclaimer(d: string) {
-  console.log("\n---");
-  console.log(`DISCLAIMER: ${d}`);
-  console.log("---\n");
-}
+// printDisclaimer imported from formatter.ts
 
 program.name("nse-agent").description("NSE AI Agent - agentic analysis, screening, and reporting for Indian stocks").version("1.1.0");
 
